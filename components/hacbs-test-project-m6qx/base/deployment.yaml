@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-m6qx
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/mbasti-test-org/integration1-barm-tenant/integ-app-ipfa/hacbs-test-project-m6qx@sha256:8bff18ed3563dbf841790a9a875e45127de2da9f5ed995acaafb64b0e0d0770b
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
