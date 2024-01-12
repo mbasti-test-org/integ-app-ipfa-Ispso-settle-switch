@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-m6qx
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/mbasti-test-org/integration1-barm-tenant/integ-app-ipfa/hacbs-test-project-m6qx@sha256:8bff18ed3563dbf841790a9a875e45127de2da9f5ed995acaafb64b0e0d0770b
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
